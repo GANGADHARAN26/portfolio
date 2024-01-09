@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.flex{
+    display: flex;
+}
+.column{
+    flex-direction: column;
+}
+.j-between{
+    justify-content: space-between;
+}
+.j-center{
+    justify-content: center;
+}
+.j-column{
+    justify-content: center;
+}
+.a-center{
+    align-items: center;
+}
+.j-right{
+  justify-content: end;
+}
