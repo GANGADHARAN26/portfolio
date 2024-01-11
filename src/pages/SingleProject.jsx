@@ -12,7 +12,7 @@ const SingleProject = () => {
       backEndGithublink:"https://github.com/GANGADHARAN26/ecommerce-backend",
       BackEndDeployLink:"https://dashboard.render.com/web/srv-cm9okgvqd2ns73dqqblg",
       features:"React ,Node js,Express js,React Redux,Redux Toolkit ",
-      detail:"Form Validation using Formik and Yup ,Payment gateway using Razorpay ,Notification features using Toastify , Redux and Redux Toolkit for State Management ,Rating feature included using react star components ,Product Photos included using cloudinary ,Authetication and Athorization feature included using Jsonwentoken and bcrypt ",
+      detail:"Form Validation using Formik and Yup ,Payment gateway using Razorpay ,Notification features using Toastify , Redux and Redux Toolkit for State Management ,Rating feature included using react star components ,Product Photos included using cloudinary ,Authentication and Authorization feature included using Jsonwentoken and bcrypt ",
 
     },
     {
@@ -23,7 +23,7 @@ const SingleProject = () => {
       backEndGithublink:"https://github.com/GANGADHARAN26/ecommerce-backend",
       BackEndDeployLink:"https://dashboard.render.com/web/srv-cm9okgvqd2ns73dqqblg",
       features:"React ,Node js,Express js,React Redux,Redux Toolkit ",
-      detail:"  Redux and Redux Toolkit for State Management ,For Notification features using Toastify ,Authetication and Athorization feature included using Jsonwentoken and bcrypt ,For Chart Designs Ant Design used with Graph",
+      detail:"  Redux and Redux Toolkit for State Management ,For Notification features using Toastify ,Authentication and Authorization feature included using Jsonwentoken and bcrypt ,For Chart Designs Ant Design used with Graph",
 
     },
     {
@@ -34,7 +34,7 @@ const SingleProject = () => {
       backEndGithublink:"https://github.com/GANGADHARAN26/Gmail-Clone-BackEnd",
       BackEndDeployLink:"https://dashboard.render.com/web/srv-ckujh3q37rbc73d1gl8g",
       features:"React ,Node js,Express js ,Material UI and Styled Components,Nodemailer,MongoDB ",
-      detail:"Email Sending Implemented using Nodemailer Package and For Authentication and Athorization features included using Jsonwebtoken and Bcrypt"
+      detail:"Email Sending Implemented using Nodemailer Package and For Authentication and Authorization features included using Jsonwebtoken and Bcrypt"
 
     },
     {
@@ -45,7 +45,7 @@ const SingleProject = () => {
       backEndGithublink:"https://github.com/GANGADHARAN26/netflix-clone-server",
       BackEndDeployLink:"https://dashboard.render.com/web/srv-cmdmhvv109ks7399d13g",
       features:"React ,Node js,Express js , Styled Components,Firebase",
-      detail:"For User Athentication Firebase is used and TMDB API is for Movie Data and Added Wishlist Functionality"
+      detail:"For User Authentication Firebase is used and TMDB API is for Movie Data and Added Wishlist Functionality"
     },
     {
       name: "Chat Application",
@@ -55,7 +55,7 @@ const SingleProject = () => {
       backEndGithublink:"https://github.com/GANGADHARAN26/chat-server",
       BackEndDeployLink:"https://dashboard.render.com/web/srv-cmc5m9f109ks73aj1oeg",
       features:"React ,Node js,Express js,React Redux,Redux Toolkit ,Socket.io,Socket.io-client,Tailwindcss",
-      detail:"Authentication and Athorization features included using Jsonwebtoken and Bcrypt,For Message conversation using socket.io "
+      detail:"Authentication and Authorization features included using Jsonwebtoken and Bcrypt,For Message conversation using socket.io "
     },
   ];
   useEffect(() => {

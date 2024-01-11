@@ -1,7 +1,6 @@
 import { FiDownload } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 const About = () => {
-  const navigate=useNavigate()
   return (
     <div className="container mt-28">
       <div className="py-20 px-8 h-96 border-2 w-full backdrop-blur-3xl ">
