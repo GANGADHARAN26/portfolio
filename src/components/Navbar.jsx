@@ -13,7 +13,7 @@ const Navbar = () => {
             className="h-8"
             alt="Flowbite Logo"
           />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-cyan-200 hover:text-white">
             Portfolio
           </span>
         </Link>
@@ -46,7 +46,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/"
-                className="block py-2 px-3  text-blue-300 text-transparent font-extrabold rounded md:bg-transparent  md:p-0  "
+                className="block py-2 px-3  text-blue-300  text-transparent font-extrabold rounded md:bg-transparent  md:p-0  "
                 aria-current="page"
               >
                 Home
@@ -55,7 +55,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/projects"
-                className="block py-2 px-3 text-blue-300 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 text-blue-300 hover:text-white md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Projects
               </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/skills"
-                className=" block py-2 px-3  text-blue-300 text-transparent  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className=" block py-2 px-3  text-blue-300 text-transparent hover:text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 Skills
               </Link>
