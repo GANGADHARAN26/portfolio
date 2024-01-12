@@ -1,6 +1,3 @@
-import styled from "styled-components";
-import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import  { useRef, useState } from "react";
 import ecommerce from "../assets/ecommerce.png";
 import admin from "../assets/admin.png";
 import gmail from "../assets/gmail.png";
@@ -11,43 +8,19 @@ import { Link} from "react-router-dom";
 // eslint-disable-next-line react/prop-types
 export default function Projects() {
   const data=[
-        {name:"Ecommerce",img:ecommerce,link:"https://app.netlify.com/sites/curious-chimera-d907ab/"},
-        {name:"Ecommerce Admin",img:admin,link:"https://main--amazing-starship-43095c.netlify.app/"},
-        {name:"Gmail Clone",img:gmail,link:"https://app.netlify.com/sites/cerulean-banoffee-542bb7/"},
-        {name:"Netflix Clone",img:netflix,link:"https://app.netlify.com/sites/shiny-bavarois-bdc5af/"},
-        {name:"Chat Application",img:chat,link:"https://app.netlify.com/sites/mellow-chimera-cd179a/"},
+        {name:"Ecommerce",img:ecommerce,link:"https://curious-chimera-d907ab.netlify.app/"},
+        {name:"Ecommerce Admin",img:admin,link:"https://amazing-starship-43095c.netlify.app/"},
+        {name:"Gmail Clone",img:gmail,link:"https://cerulean-banoffee-542bb7.netlify.app/"},
+        {name:"Netflix Clone",img:netflix,link:"https://shiny-bavarois-bdc5af.netlify.app/"},
+        {name:"Chat Application",img:chat,link:"https://mellow-chimera-cd179a.netlify.app/"},
       ]
-  const listRef = useRef();
-  const [sliderPosition, setSliderPosition] = useState(1);
-  const [showControls, setShowControls] = useState(false);
-  const handleDirection = (direction) => {
-    let distance = listRef.current.getBoundingClientRect().x - 70;
-    if (direction === "left" && sliderPosition > 0) {
-      listRef.current.style.transform = `translateX(${230 + distance}px)`;
-      setSliderPosition(sliderPosition - 1);
-    }
-    if (direction === "right" && sliderPosition < 5) {
-      listRef.current.style.transform = `translateX(${-230 + distance}px)`;
-      setSliderPosition(sliderPosition + 1);
-    }
-  };
   return (
-    <Container
-    className="flex column  overflow-hidden"
-    showControls={showControls}
-    onMouseEnter={() => setShowControls(true)}
-    onMouseLeave={() => setShowControls(false)}
+    <div
+   className="bg-scroll scrollbar-hide"
   >
     <h1>Projects</h1>
-    <div className="wrapper ">
-      <div
-        className={`slider-action left ${
-          !showControls ? "none" : ""
-        } flex j-center a-center`}
-      >
-        <AiOutlineLeft onClick={() => handleDirection("left")} className="text-white"/>
-      </div>
-      <div className="slider flex " ref={listRef}>
+    <div className=" px-7 py-5 ">
++-*      <div className="grid grid-cols-4 gap-9" >
         {data.map((info, index) => {
           return (
             <div id="card " className="hover:scale-105 transition ease-in-out delay-150" key={index}>
@@ -60,7 +33,7 @@ export default function Projects() {
                           />
                         </Link>
                         <div className="p-5">
-                          <a href="#" className="flex justify-between">
+                          <a href="#" className="flex justify-between" target="_blank" rel="noopener noreferrer">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
                               {info.name}
                             </h5>
@@ -73,6 +46,7 @@ export default function Projects() {
                           <div className="flex justify-between">
                           <a
                             href={info.link}
+                            target="_blank" rel="noopener noreferrer"
                             className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                           
                           >
@@ -107,51 +81,10 @@ export default function Projects() {
         })}
       </div>
       <div
-        className={`slider-action right ${
-          !showControls ? "none" : ""
-        } flex j-center a-center`}
+       
       >
-        <AiOutlineRight onClick={() => handleDirection("right")} className="text-white"/>
       </div>
     </div>
-  </Container>
+  </div>
   );
 }
-const Container = styled.div`
-  gap: 1rem;
-  position: relative;
-  padding: 2rem 0;
-  h1 {
-    margin-left: 50px;
-  }
-  .wrapper {
-    .slider {
-      width: max-content;
-      gap: 1rem;
-      transform: translateX(0px);
-      transition: 0.3s ease-in-out;
-      margin-left: 50px;
-    }
-    .slider-action {
-      position: absolute;
-      z-index: 99;
-      height: 100%;
-      top: 0;
-      bottom: 0;
-      width: 50px;
-      transition: 0.3s ease-in-out;
-      svg {
-        font-size: 2rem;
-      }
-    }
-    .none {
-      display: none;
-    }
-    .left {
-      left: 0;
-    }
-    .right {
-      right: 0;
-    }
-  }
-`;

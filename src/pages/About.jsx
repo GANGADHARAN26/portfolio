@@ -1,14 +1,13 @@
 import { FiDownload } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
 const About = () => {
   return (
-    <div className="container mt-28">
-      <div className="py-20 px-8 h-96 border-2 w-full backdrop-blur-3xl ">
+    <div className="container mt-28 h-screen px-7">
+      <div className="py-20 px-8 h-50 border-2 w-full backdrop-blur-3xl ">
         <div className="heading">
           <h1 className="text-white">About Me</h1>
         </div>
         <div className="body">
-          <p className="text-white flex py-5">
+          <p className="text-white flex py-3">
             Hello everyone, I am Gangadharan from India and I have finished
             Bachelors of Technology in Informational Technology. I share
             interest in developing  Web Development Projects and also I have

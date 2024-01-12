@@ -9,7 +9,7 @@ import redux from "../assets/redux.svg";
 import tcss from "../assets/tailwind-css.svg";
 const Skill = () => {
   return (
-    <div className="container">
+    <div className="container h-screen">
       <div className="card flex justify-around py-20 backdrop-blur-3xl ">
         <div className="h-96  border-2 w-1/2 grid grid-cols-5 gap-16 content-normal p-10 ">
           <div className="hover:scale-105 transition ease-in-out delay-150">

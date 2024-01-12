@@ -6,12 +6,11 @@ const Layout = () => {
   return (
     <>
      <div
+      className=" w-full bg-scroll bg-black  bg-cover "
+
       style={{
         backgroundImage: `url(${img2})`,
-        backgroundAttachment: "fixed",
-        height: "100vh",
       }}
-      className=" w-full bg-black h-screen bg-auto sm:bg-cover md:bg-contain lg:bg-auto xl:bg-cover"
     >
       <Navbar />
       <Outlet />

@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <>
     <Meta title={"Home"} />
-    <div className=" flex  justify-between xl:px-20 px-5 items-center y  w-full h-3/4">
+    <div className=" flex  justify-between xl:px-20 px-5 items-center y  w-full h-screen">
         <div>
           <h1 className=" leading-[2rem]">
             <p className="text-white flex align-center text-2xl">
@@ -26,12 +26,12 @@ const Home = () => {
           </h1>
         </div>
         <div id="social " className=" flex  flex-col space-y-28 ml-8 ">
-            <a href="https://github.com/GANGADHARAN26">
+            <a href="https://github.com/GANGADHARAN26"  target="_blank" rel="noopener noreferrer" >
               <FaGithub
                 className={` text-white text-5xl flex justify-end sm:visibility:none hover:scale-105 transition ease-in-out delay-150 }`}
               />
             </a>
-            <a href="https://www.linkedin.com/in/ganga-dharan-9241611b1/">
+            <a href="https://www.linkedin.com/in/ganga-dharan-9241611b1/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin
                 className="text-white text-5xl sm:visibility:none hover:scale-105 transition ease-in-out delay-150"
               />

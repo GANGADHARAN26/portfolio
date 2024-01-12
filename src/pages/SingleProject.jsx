@@ -6,7 +6,7 @@ const SingleProject = () => {
   const data = [
     {
       name: "Ecommerce",
-      link: "https://app.netlify.com/sites/curious-chimera-d907ab/",
+      link: "https://curious-chimera-d907ab.netlify.app/",
       description: "Shopping website with all the functionality",
       frontEndGithublink: "https://github.com/GANGADHARAN26/ecommerce-fronend",
       backEndGithublink:"https://github.com/GANGADHARAN26/ecommerce-backend",
@@ -17,7 +17,7 @@ const SingleProject = () => {
     },
     {
       name: "Ecommerce Admin",
-      link: "https://main--amazing-starship-43095c.netlify.app/",
+      link: "https://amazing-starship-43095c.netlify.app/",
       description: "Admin Dashboard for ecommerce website",
       frontEndGithublink: "https://github.com/GANGADHARAN26/ecommerce-admin-app",
       backEndGithublink:"https://github.com/GANGADHARAN26/ecommerce-backend",
@@ -28,7 +28,7 @@ const SingleProject = () => {
     },
     {
       name: "Gmail Clone",
-      link: "https://app.netlify.com/sites/cerulean-banoffee-542bb7/",
+      link: "https://cerulean-banoffee-542bb7.netlify.app/",
       description: "Gmail Clone with all the functionality",
       frontEndGithublink: "https://github.com/GANGADHARAN26/gmail-clone-frontend",
       backEndGithublink:"https://github.com/GANGADHARAN26/Gmail-Clone-BackEnd",
@@ -39,7 +39,7 @@ const SingleProject = () => {
     },
     {
       name: "Netflix Clone",
-      link: "https://app.netlify.com/sites/shiny-bavarois-bdc5af/",
+      link: "https://shiny-bavarois-bdc5af.netlify.app/",
       description: "Netflix Clone with all the functionality",
       frontEndGithublink: "https://github.com/GANGADHARAN26/netflix-mern-client",
       backEndGithublink:"https://github.com/GANGADHARAN26/netflix-clone-server",
@@ -49,7 +49,7 @@ const SingleProject = () => {
     },
     {
       name: "Chat Application",
-      link: "https://app.netlify.com/sites/mellow-chimera-cd179a/",
+      link: "https://mellow-chimera-cd179a.netlify.app/",
       description: "Chat Appliction with all the functionality",
       frontEndGithublink: "https://github.com/GANGADHARAN26/chat-client",
       backEndGithublink:"https://github.com/GANGADHARAN26/chat-server",
