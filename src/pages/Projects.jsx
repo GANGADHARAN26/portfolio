@@ -20,7 +20,7 @@ export default function Projects() {
   >
     <h1>Projects</h1>
     <div className=" px-7 py-5 ">
-+-*      <div className="grid grid-cols-4 gap-9" >
++-*      <div className="grid grid-cols-4 gap-5" >
         {data.map((info, index) => {
           return (
             <div id="card " className="hover:scale-105 transition ease-in-out delay-150" key={index}>
