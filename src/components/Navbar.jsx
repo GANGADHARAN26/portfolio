@@ -70,7 +70,7 @@ const Navbar = () => {
             </li>
             <li className="py-2">
               <a
-                href="https://docs.google.com/document/d/1Jr_nFm9OEfyJlQ7wGCIvzQGCXUU9sJ6C4Q3_dscpG40/edit?usp=sharing"
+                href="https://drive.google.com/file/d/1dTIdUwaBHwKHHqGl9A4RI7S3qkS1Nb6C/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2 px-3 text-blue-300  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
