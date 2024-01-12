@@ -16,7 +16,7 @@ const About = () => {
             Projects and I am currently working on learning Web Development Technology
             and Doing Projects 
           </p>
-          <a href="https://drive.google.com/file/d/1dTIdUwaBHwKHHqGl9A4RI7S3qkS1Nb6C/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bg-white text p-3 border-yellow-500 border-4 flex gap-2 w-40 justify-center items-center">
+          <a href="https://drive.google.com/file/d/1CKHjc6IsKJRUUB5nZK2rEw64Pt-ejRFD/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="bg-white text p-3 border-yellow-500 border-4 flex gap-2 w-40 justify-center items-center">
             <FiDownload className="block" /> Download CV
           </a>
         </div>

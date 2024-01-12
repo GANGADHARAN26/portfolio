@@ -46,7 +46,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/"
-                className="block py-2 px-3  text-blue-300  text-transparent font-extrabold rounded md:bg-transparent  md:p-0  "
+                className="block py-2 px-3  text-blue-300  font-extrabold rounded md:bg-transparent  md:p-0  "
                 aria-current="page"
               >
                 Home
@@ -55,7 +55,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/projects"
-                className="block py-2 px-3 text-blue-300 hover:text-white md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3 text-blue-300 hover:text-white md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500  dark:hover:text-white "
               >
                 Projects
               </Link>
@@ -63,14 +63,14 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/skills"
-                className=" block py-2 px-3  text-blue-300 text-transparent hover:text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className=" block py-2 px-3  text-blue-300  hover:text-white  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700  md:dark:hover:bg-transparent"
               >
                 Skills
               </Link>
             </li>
             <li className="py-2">
               <a
-                href="https://drive.google.com/file/d/1dTIdUwaBHwKHHqGl9A4RI7S3qkS1Nb6C/view?usp=sharing"
+                href="https://drive.google.com/file/d/1CKHjc6IsKJRUUB5nZK2rEw64Pt-ejRFD/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block py-2 px-3 text-blue-300  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -81,7 +81,7 @@ const Navbar = () => {
             <li className="py-2">
               <Link
                 to="/about"
-                className="block py-2 px-3  text-blue-300 text text-transparent rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                className="block py-2 px-3  text-blue-300 text  rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0  md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
               >
                 About
               </Link>
