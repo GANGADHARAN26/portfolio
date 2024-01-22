@@ -11,7 +11,7 @@ const About = () => {
             Hello everyone, I am Gangadharan from India and I have finished
             Bachelors of Technology in Informational Technology. I share
             interest in developing  Web Development Projects and also I have
-            in doing IEEE Projects ant I have done two IEEE projects like Automated
+            in doing IOT Projects ant I have done two IOT projects like Automated
             vehicle and  Alcohal control Technology in vehicle as my Bachelors
             Projects and I am currently working on learning Web Development Technology
             and Doing Projects 
