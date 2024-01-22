@@ -83,7 +83,7 @@ const SingleProject = () => {
                 Front End Code 
               </dt>
               <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2 hover:text-blue-400">
-                <a href={details.frontEndGithublink}>{details.frontEndGithublink}</a>
+                <a href={details.frontEndGithublink}  target="_blank" rel="noopener noreferrer">{details.frontEndGithublink} </a>
               </dd>
             </div>
             <div className="backdrop-blur-xl px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -91,7 +91,7 @@ const SingleProject = () => {
                 Back End Code 
               </dt>
               <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2 hover:text-blue-400">
-              <a href={details.backEndGithublink}>{details.backEndGithublink}</a>
+              <a href={details.backEndGithublink} target="_blank" rel="noopener noreferrer">{details.backEndGithublink}</a>
               </dd> 
             </div>
             <div className="backdrop-blur-xl px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -99,7 +99,7 @@ const SingleProject = () => {
                 Front End Deploy Link
               </dt>
               <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2 hover:text-blue-400">
-              <a href={details.link}>{details.link}</a>
+              <a href={details.link} target="_blank" rel="noopener noreferrer">{details.link}</a>
               </dd>
             </div>
             <div className="backdrop-blur-xl px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
@@ -107,7 +107,7 @@ const SingleProject = () => {
                 Back End Deploy Link
               </dt>
               <dd className="mt-1 text-sm text-white sm:mt-0 sm:col-span-2 hover:text-blue-400">
-              <a href={details.BackEndDeployLink}>{details.BackEndDeployLink}</a>
+              <a href={details.BackEndDeployLink} target="_blank" rel="noopener noreferrer">{details.BackEndDeployLink}</a>
               </dd>
             </div>
             <div className="backdrop-blur-xl px-4 py-4 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
