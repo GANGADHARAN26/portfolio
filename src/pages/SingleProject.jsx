@@ -65,7 +65,8 @@ const SingleProject = () => {
   }, [location]);
   console.log(details);
   return (
-    <div className="flex justify-center  ">
+ <div className="h-screen py-5">
+     <div className="flex justify-center  ">
       <div className="backdrop-blur-3xl max-w-2xl shadow overflow-hidden sm:rounded-lg border-2 border-white">
         <div className="px-4 py-4 sm:px-6">
           <h3 className="text-lg leading-6 font-medium text-white">
@@ -129,6 +130,7 @@ const SingleProject = () => {
         </div>
       </div>
     </div>
+ </div>
   );
 };
 
