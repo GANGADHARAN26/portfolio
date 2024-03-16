@@ -60,10 +60,9 @@ const SingleProject = () => {
   ];
   useEffect(() => {
     if (location) {
-      setDetails(data[0]);
+      setDetails(data[location]);
     }
   }, [location]);
-  console.log(details);
   return (
  <div className="h-screen py-5">
      <div className="flex justify-center  ">
