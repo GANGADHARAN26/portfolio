@@ -7,6 +7,7 @@ import ejs from "../assets/express.svg";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.svg";
 import tcss from "../assets/tailwind-css.svg";
+import mui from "../assets/materialUI.svg";
 const Skill = () => {
   return (
     <div className="container h-screen">
@@ -22,19 +23,19 @@ const Skill = () => {
                 alt="javscript"
               />
             </div>
-            <div className="name text-white py-2">JavaScript</div>
+            <div className="name text-white py-2 ">JavaScript</div>
           </div>
           <div className="hover:scale-105 transition ease-in-out delay-150">
             <div className="logo">
               <img src={njs} width={70} height={70} alt="nodejs" />
             </div>
-            <div className="name text-white py-2">Node JS</div>
+            <div className="name text-white py-2 ">Node JS</div>
           </div>{" "}
           <div className="hover:scale-105 transition ease-in-out delay-150">
             <div className="logo">
               <img src={react} width={70} height={60} alt="react" />
             </div>
-            <div className="name text-white py-4">React JS</div>
+            <div className="name text-white py-4 ">React JS</div>
           </div>{" "}
           <div className="hover:scale-105 transition ease-in-out delay-150">
             <div className="logo">
@@ -70,6 +71,12 @@ const Skill = () => {
               <img src={sql} width={60} height={60} alt="javscript" />
             </div>
             <div className="name text-white">SQL</div>
+          </div>
+          <div className="hover:scale-105 transition ease-in-out delay-150">
+            <div className="logo">
+              <img src={mui} width={60} height={60} alt="javscript" />
+            </div>
+            <div className="name text-white">Material UI</div>
           </div>
         </div>
       </div>

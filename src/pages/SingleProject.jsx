@@ -6,7 +6,7 @@ const SingleProject = () => {
   const data = [
     {
       name: "Ecommerce",
-      link: "https://curious-chimera-d907ab.netlify.app/",
+      link: "https://spotify-eccomerce.netlify.app/",
       description: "Shopping website with all the functionality",
       frontEndGithublink: "https://github.com/GANGADHARAN26/ecommerce-fronend",
       backEndGithublink:"https://github.com/GANGADHARAN26/ecommerce-backend",

@@ -11,7 +11,7 @@ export default function Projects() {
     {
       name: "Ecommerce",
       img: ecommerce,
-      link: "https://curious-chimera-d907ab.netlify.app/",
+      link: "https://spotify-eccomerce.netlify.app/",
       details:
         "Ecommerce with admin dashboard, rating features, payment gateway and others.",
     },
