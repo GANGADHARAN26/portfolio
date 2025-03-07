@@ -1,22 +1,24 @@
-
-import { Outlet } from 'react-router-dom';
+import { Outlet } from "react-router-dom";
 import img2 from "../assets/img2.jpg";
-import Navbar from './Navbar';
+import Navbar from "./Navbar";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 const Layout = () => {
   return (
     <>
-     <div
-      className=" w-full bg-scroll bg-black  bg-cover "
+      <div
+        className=" w-full bg-scroll bg-black  bg-cover "
+        style={{
+          backgroundImage: `url(${img2})`,
+        }}
+      >
+        <SpeedInsights />
 
-      style={{
-        backgroundImage: `url(${img2})`,
-      }}
-    >
-      <Navbar />
-      <Outlet />
-    </div>
+        <Navbar />
+        <Outlet />
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

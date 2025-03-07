@@ -7,9 +7,11 @@ import Skill from './pages/Skill';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import SingleProject from "./pages/SingleProject";
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
    <>
+   <Analytics/>
    <BrowserRouter>
    <Routes>
     <Route path="/" element={<Layout/>}>
