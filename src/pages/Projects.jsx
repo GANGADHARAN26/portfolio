@@ -2,7 +2,9 @@ import ecommerce from "../assets/ecommerce.png";
 import admin from "../assets/admin.png";
 import gmail from "../assets/gmail.png";
 import chat from "../assets/chat.png";
+import analytics from "../assets/analytics.png";
 import netflix from "../assets/netflix.png";
+import rfs from "../assets/rfs.png";
 import { Link } from "react-router-dom";
 
 // eslint-disable-next-line react/prop-types
@@ -42,6 +44,20 @@ export default function Projects() {
       link: "https://mellow-chimera-cd179a.netlify.app/",
       details:
         "Chat application using socket.io, redux , authorization and authenticatioin.",
+    },
+    {
+      name: "LMS Analytics Research",
+      img: analytics,
+      link: "https://dashboard-analytics-lll.netlify.app/",
+      details:
+        "Static analuytics research demo page of LMS",
+    },
+    {
+      name: "Refferal management system",
+      img: rfs,
+      link: "https://referralmanagementsystem.netlify.app/",
+      details:
+        "Refferal management system for developers",
     },
   ];
   return (

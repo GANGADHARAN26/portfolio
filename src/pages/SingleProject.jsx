@@ -57,6 +57,26 @@ const SingleProject = () => {
       features:"React ,Node js,Express js,React Redux,Redux Toolkit ,Socket.io,Socket.io-client,Tailwindcss",
       detail:"Authentication and Authorization features included using Jsonwebtoken and Bcrypt,For Message conversation using socket.io "
     },
+    {
+      name: "LMS Analytics Research",
+      link: "https://dashboard-analytics-lll.netlify.app/",
+      description: "Static analuytics research demo page of LMS ",
+      frontEndGithublink: "https://github.com/GANGADHARAN26/Analytics-Dashboard",
+      backEndGithublink:"https://github.com/GANGADHARAN26/Analytics-Dashboard",
+      BackEndDeployLink:"https://github.com/GANGADHARAN26/Analytics-Dashboard",
+      features:"React, MUI material design and charts , React charts",
+      detail:"This is page is static page and research demo for the top to bottom how to can implemtn the analytics dashboard of the LMS "
+    },
+    {
+      name: "Refferal management system",
+      link: "https://referralmanagementsystem.netlify.app/",
+      description: "Refferal management system for developers ",
+      frontEndGithublink: "https://github.com/GANGADHARAN26/RFS-Client",
+      backEndGithublink:"https://github.com/GANGADHARAN26/RFS-server",
+      BackEndDeployLink:"https://rfs-server.onrender.com",
+      features:"React, TailwindCSS, Redux and Redux toolkit, AWS javscript SDK",
+      detail:"Refferal management with implmented features of remuse upload with aws s3 bucket with javascript sdk"
+    },
   ];
   useEffect(() => {
     if (location) {
